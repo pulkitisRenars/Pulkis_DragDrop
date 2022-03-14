@@ -87,6 +87,44 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler {
 					= objektuSkripts.bussKoord;
 					break;
 
+				case "Rok":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+
+				case "velk":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+				case "Stumj":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+
+				case "Ker":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+
+				case "Lido":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+
+				case "dzes":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+
+				case "cemente":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+
+				case "kruiso":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
 				default:
 					Debug.Log ("Nedefinēts tags!");
 					break;
