@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-
+using UnityEngine.UI;
 
 public class NomesanasVieta : MonoBehaviour, IDropHandler {
 	//Uzglabās velkamā objekta un nomešanas lauka z rotāciju,
@@ -130,6 +130,29 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler {
 					break;
 				}
 
+			}
+		}
+
+		if (objektuSkripts.punkti == 11) {
+
+
+
+			objektuSkripts.VicPanel.SetActive(true);
+			objektuSkripts.restartBut.SetActive(true);
+
+			objektuSkripts.timeAC = false;
+			objektuSkripts.teksts.GetComponent<Text>().enabled = true;
+
+	
+		objektuSkripts.teksts.text = "Pabeidzi speli "+Mathf.Round(objektuSkripts.timee).ToString ()+" sekundes!!!";
+			if(objektuSkripts.timee<=200) {
+	objektuSkripts.star1.SetActive(true);
+			}
+			if(objektuSkripts.timee<=100) {
+		objektuSkripts.star2.SetActive(true);
+			}
+			if  (objektuSkripts.timee<=50) {
+		objektuSkripts.star3.SetActive (true);
 			}
 		}
 	}

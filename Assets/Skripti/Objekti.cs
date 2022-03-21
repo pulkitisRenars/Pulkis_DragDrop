@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Objekti : MonoBehaviour {
 	//Uzglabā ainā esošo kanvu
@@ -50,6 +51,24 @@ public class Objekti : MonoBehaviour {
 	//Uzglabās pēdējo objektu, kurš pakustināts
 	public GameObject pedejaisVIlktais = null;
 
+
+
+
+public int punkti=0;
+
+	public GameObject VicPanel;
+	public GameObject restartBut;
+
+	 public GameObject star1;
+	 public GameObject star2;
+	 public GameObject star3;
+	 public Text teksts;
+
+	public float timee;
+	public bool timeAC=true;
+
+
+
 	// Use this for initialization
 	void Start () {
 		atkrKoord = atkritumuMasina.GetComponent<RectTransform> ().localPosition;
@@ -63,6 +82,23 @@ public class Objekti : MonoBehaviour {
 		trak2Koord = trak2.GetComponent<RectTransform> ().localPosition;
 		cementKoord = cements.GetComponent<RectTransform> ().localPosition;
 		KonstrKoord = konstr.GetComponent<RectTransform> ().localPosition;
+
+
+
+
+		VicPanel.SetActive(false);
+		restartBut.SetActive(false);
+		teksts.GetComponent<Text>().enabled=false;
+
+
+
+
+
+star1.SetActive  (false);
+star2.SetActive(false);
+star3.SetActive(false);
+
+
 
 	}
 }

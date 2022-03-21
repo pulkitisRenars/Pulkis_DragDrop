@@ -9,11 +9,11 @@ public class ObjektaTransformacija : MonoBehaviour {
 	void Update () {
 		if (objektuSkripts.pedejaisVIlktais != null) {
 			if (Input.GetKey (KeyCode.Z)) {
-				objektuSkripts.pedejaisVIlktais.GetComponent<RectTransform> ().transform.Rotate (0, 0, Time.deltaTime * 9f);
+				//objektuSkripts.pedejaisVIlktais.GetComponent<RectTransform> ().transform.Rotate (0, 0, Time.deltaTime * 9f);
 			}
 
 			if (Input.GetKey (KeyCode.X)) {
-				objektuSkripts.pedejaisVIlktais.GetComponent<RectTransform> ().transform.Rotate (0, 0, -Time.deltaTime * 9f);
+				//objektuSkripts.pedejaisVIlktais.GetComponent<RectTransform> ().transform.Rotate (0, 0, -Time.deltaTime * 9f);
 			}
 
 			if (Input.GetKey (KeyCode.UpArrow)) {

@@ -24,5 +24,6 @@ C:\Users\Dators19\Desktop\Pulkis_DragDrop\Temp\bin\Debug\UnityEngine.PlaymodeTes
 C:\Users\Dators19\Desktop\Pulkis_DragDrop\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\Dators19\Desktop\Pulkis_DragDrop\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\Dators19\Desktop\Pulkis_DragDrop\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Dators19\Desktop\Pulkis_DragDrop\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Dators19\Desktop\Pulkis_DragDrop\obj\Debug\Assembly-CSharp.dll
 C:\Users\Dators19\Desktop\Pulkis_DragDrop\obj\Debug\Assembly-CSharp.pdb
