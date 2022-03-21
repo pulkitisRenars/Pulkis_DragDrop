@@ -50,7 +50,10 @@
      <Compile Include="Assets\Skripti\NomesanasVieta.cs" />
      <Compile Include="Assets\Skripti\ObjektaTransformacija.cs" />
      <Compile Include="Assets\Skripti\Objekti.cs" />
+     <Compile Include="Assets\Skripti\Quit.cs" />
      <Compile Include="Assets\Skripti\SpelesGUI.cs" />
+     <Compile Include="Assets\Skripti\uzGalveno.cs" />
+     <Compile Include="Assets\Skripti\uzMenu.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

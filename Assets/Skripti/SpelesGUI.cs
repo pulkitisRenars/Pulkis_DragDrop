@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpelesGUI : MonoBehaviour {
-
+	public GameObject sakt;
+	public GameObject beigt;
 	// Use this for initialization
 	void Start () {
 		
@@ -11,8 +12,7 @@ public class SpelesGUI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKey(KeyCode.R)){
-		Application.LoadLevel (0);
+		
 		}
 	}
-}
+
